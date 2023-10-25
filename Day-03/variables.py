@@ -10,3 +10,6 @@ def sub():
     c = 35
     print(a-b-c)
 
+addition()
+
+sub()
