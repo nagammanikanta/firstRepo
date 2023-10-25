@@ -1,9 +1,18 @@
-# Good variable naming
-user_name = "John"
-total_items = 42
+server_name = "my_server"
+port = 80
+is_https_enabled = True
+max_connections = 1000
 
+# Print the configuration
+print(f"Server Name: {server_name}")
+print(f"Port: {port}")
+print(f"HTTPS Enabled: {is_https_enabled}")
+print(f"Max Connections: {max_connections}")
 
+# Update configuration values
+port = 443
+is_https_enabled = False
 
-# Use meaningful names
-a = 10  # Less clear
-num_of_students = 10  # More descriptive
+# Print the updated configuration
+print(f"Updated Port: {port}")
+print(f"Updated HTTPS Enabled: {is_https_enabled}")
