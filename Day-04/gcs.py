@@ -1,22 +1,21 @@
-import sys
 from google.cloud import storage
+import os
 
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "key.json"
 
-environ["GOOGLE_APPLICATION_CREDENTIALS"] = "key.json"
+project_id = 'data-rainfall-396303'
+bucket_name = 'bkt-dev-006'
 
-def create_bucket(bucket_name):
-    """Creates a new bucket."""
-    # bucket_name = "your-new-bucket-name"
+storage_client = storage.Client()
+bucket = storage_client.bucket(bucket_name)
+bucket.location = 'us'
+bucket.create(project=project_id,location="us")
+print(f'Bucket {bucket_name} created.')
 
-    storage_client = storage.Client()
+#To upload objects to Bucket
+blob = bucket.blob("create_vm.py")
+with open('create_vm.py', 'rb') as file:
+    blob.upload_from_file(file)
 
-    bucket = storage_client.create_bucket(bucket_name)
-
-    print(f"Bucket {bucket.name} created")
-
-
-# [END storage_create_bucket]
-
-if __name__ == "__main__":
-    create_bucket(bucket_name=sys.argv[1])
-
+#Delete object
+blob.delete()
