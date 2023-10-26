@@ -1,7 +1,7 @@
 from google.cloud import storage
 import os
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "key.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "mykey.json"
 
 project_id = 'data-rainfall-396303'
 bucket_name = 'bkt-dev-006'
@@ -12,10 +12,4 @@ bucket.location = 'us'
 bucket.create(project=project_id,location="us")
 print(f'Bucket {bucket_name} created.')
 
-#To upload objects to Bucket
-blob = bucket.blob("create_vm.py")
-with open('create_vm.py', 'rb') as file:
-    blob.upload_from_file(file)
 
-#Delete object
-blob.delete()
