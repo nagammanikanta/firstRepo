@@ -1,8 +1,8 @@
 import sys
 from google.cloud import storage
-import os
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "key.json"
+
+environ["GOOGLE_APPLICATION_CREDENTIALS"] = "key.json"
 
 def create_bucket(bucket_name):
     """Creates a new bucket."""
