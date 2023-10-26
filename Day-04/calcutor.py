@@ -7,10 +7,7 @@ def sub(num1,num2):
 def mul(num1,num2):
     m =num1 * num2
     return m
-
 addition(10,5)
-
 sub(10,5)
-
 mul(10,5)
 
