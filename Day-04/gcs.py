@@ -1,15 +1,13 @@
-from google.cloud import storage
+def implicit():
+    from google.cloud import storage
 
+    # If you don't specify credentials when constructing the client, the
+    # client library will look for credentials in the environment.
+    project = 'data-rainfall-396303'
+    storage_client = storage.Client(project=project)
 
-environ["GOOGLE_APPLICATION_CREDENTIALS"] = "mykey.json"
-
-project_id = 'data-rainfall-396303'
-bucket_name = 'bkt-dev-006'
-
-storage_client = storage.Client()
-bucket = storage_client.bucket(bucket_name)
-bucket.location = 'us'
-bucket.create(project=project_id,location="us")
-print(f'Bucket {bucket_name} created.')
+    # Make an authenticated API request
+    buckets = list(storage_client.list_buckets())
+    print(buckets)
 
 
