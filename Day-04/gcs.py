@@ -1,21 +1,14 @@
+# Imports the Google Cloud client library
 from google.cloud import storage
-import os
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "key.json"
 
-project_id = 'data-rainfall-396303'
-bucket_name = 'mnk-dev-006'
-
+# Instantiates a client
 storage_client = storage.Client()
-bucket = storage_client.bucket(bucket_name)
-bucket.location = 'us'
-bucket.create(project=project_id,location="us")
-print(f'Bucket {bucket_name} created.')
 
-#To upload objects to Bucket
-blob = bucket.blob("create_vm.py")
-with open('create_vm.py', 'rb') as file:
-    blob.upload_from_file(file)
+# The name for the new bucket
+bucket_name = "mani-gcs-dev"
 
-#Delete object
-blob.delete()
+# Creates the new bucket
+bucket = storage_client.create_bucket(bucket_name)
+
+print(f"Bucket {bucket.name} created.")
