@@ -1,7 +1,7 @@
 from google.cloud import storage
-import os
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "mykey.json"
+
+storage.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "mykey.json"
 
 project_id = 'data-rainfall-396303'
 bucket_name = 'bkt-dev-006'
