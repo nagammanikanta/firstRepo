@@ -11,9 +11,9 @@ def mul(num1, num2):
     m =num1 * num2
     return m
 
-num1 = print(sys.argv[1])
+num1 = int(sys.argv[1])
 operation = sys.argv[2]
-num2 = print(sys.argv[3])
+num2 = int(sys.argv[3])
 
 
 if operation == "add":
