@@ -15,4 +15,4 @@ print(new_list)
 print(len(new_list))
 
 
-print(gcs_bucket_list[0] + gcs_bucket_list[3])
+print(gcs_bucket_list[0] + "--" + gcs_bucket_list[3])
