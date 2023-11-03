@@ -18,8 +18,8 @@ currencies =[
  "AOA : Angolan Kwanza,Angola Kwanza",
  "ARS : Argentine Peso,Argentina Peso,Islas Malvinas",
  "AUD : Australian Dollar,Australia Dollar,Christmas Island,Cocos",
-(Keeling)Islands,NorfolkIsland,Ashmore and Cartierslands,Australian
-AntarcticTerritory,Coral Sea Islands,Heard Island,McDonald
+(Keeling),Islands,Norfolk Island,Ashmore and Cartier Islands,Australian
+Antarctic Territory,Coral Sea Islands,Heard Island,McDonald
 Islands,Kiribati,Nauru,
  "AWG : Aruban or Dutch Guilder,Aruba Guilder",
  "AZN : Azerbaijan Manat,Azerbaijan Manat",
