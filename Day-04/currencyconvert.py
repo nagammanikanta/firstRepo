@@ -42,7 +42,7 @@ Islands,Kiribati,Nauru,
  "BZD : Belizean Dollar,Belize Dollar",
  "CAD : Canadian Dollar,Canada Dollar",
  "CDF : Congolese Franc,Congo/Kinshasa Franc",
- "CHF : Swiss Franc,Switzerland Franc,Liechtenstein,Campione
+ "CHF : Swiss Franc,Switzerland Franc,Liechtenstein,Campione",
 d&#039;Italia,B&#252;singen am Hochrhein",
  "CLF : Chilean Unit of Account",
  "CLP : Chilean Peso,Chile Peso",
