@@ -189,9 +189,9 @@ Africaine (BEAC) CFA Franc BEAC,Cameroon,Central African
 Republic,Chad,Congo/Brazzaville,Equatorial Guinea,Gabon,
  "XAG : Silver Ounce,Silver",
  "XAU : Gold Ounce,Gold",
- "XCD : East Caribbean Dollar,East Caribbean Dollar,Anguilla,Antigua ",
+ "XCD : East Caribbean Dollar,East Caribbean Dollar,Anguilla,Antigua",
 Barbuda,Dominica,Grenada,The Grenadines and Saint Vincent,Montserrat,
- "XDR : IMF Special Drawing Rights,International Monetary Fund (IMF)
+ "XDR : IMF Special Drawing Rights,International Monetary Fund (IMF)",
 Special Drawing Rights,
  "XOF : CFA Franc,Communaut&#233; Financi&#232;re Africaine (BCEAO)",
 Franc,Benin,Burkina Faso,Ivory Coast,Guinea Bissau,Mali,Niger,Senegal,Togo,
