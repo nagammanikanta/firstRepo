@@ -130,7 +130,7 @@ Ascension,South Georgia and the South Sandwich Islands,Tristan da Cunha,
  "NAD : Namibian Dollar,Namibia Dollar",
  "NGN : Nigerian Naira,Nigeria Naira",
  "NIO : Nicaraguan Cordoba,Nicaragua Cordoba",
- "NOK : Norwegian Krone,Norway Krone,Bouvet Island,Svalbard,Jan
+ "NOK : Norwegian Krone,Norway Krone,Bouvet Island,Svalbard,Jan",
 Mayen,Queen Maud Land,Peter I Island",
  "NPR : Nepalese Rupee,Nepal Rupee,India (unofficially near India-Nepalborder)",
  "NZD : New Zealand Dollar,New Zealand Dollar,Cook Islands,Niue,Pitcairn",
@@ -173,30 +173,30 @@ Mayen,Queen Maud Land,Peter I Island",
  "TZS : Tanzanian Shilling,Tanzania Shilling",
  "UAH : Ukrainian Hryvnia,Ukraine Hryvnia",
  "UGX : Ugandan Shilling,Uganda Shilling",
- "USD : US Dollar,United States Dollar,America,American Samoa,American
+ "USD : US Dollar,United States Dollar,America,American Samoa,American",
 Virgin Islands,British Indian Ocean Territory,British Virgin
 Islands,Ecuador,El Salvador,Guam,Haiti,Micronesia,Northern Mariana
 Islands,Palau,Panama,Puerto Rico,Turks and Caicos Islands,United States
-Minor Outlying Islands,Wake Island,East Timor",
+Minor Outlying Islands,Wake Island,East Timor,
  "UYU : Uruguayan Peso,Uruguay Peso",
  "UZS : Uzbekistani Som,Uzbekistan Som",
  "VEF : Venezuelan Bol&#237;var,Venezuela Bol&#237;var",
  "VND : Vietnamese Dong,Viet Nam Dong",
  "VUV : Ni-Vanuatu Vatu,Vanuatu Vatu",
  "WST : Samoan Tala,Samoa Tala",
- "XAF : Central African CFA Franc BEAC,Communaut&#233; Financi&#232;re
+ "XAF : Central African CFA Franc BEAC,Communaut&#233; Financi&#232;re",
 Africaine (BEAC) CFA Franc BEAC,Cameroon,Central African
-Republic,Chad,Congo/Brazzaville,Equatorial Guinea,Gabon",
+Republic,Chad,Congo/Brazzaville,Equatorial Guinea,Gabon,
  "XAG : Silver Ounce,Silver",
  "XAU : Gold Ounce,Gold",
- "XCD : East Caribbean Dollar,East Caribbean Dollar,Anguilla,Antigua and
-Barbuda,Dominica,Grenada,The Grenadines and Saint Vincent,Montserrat",
+ "XCD : East Caribbean Dollar,East Caribbean Dollar,Anguilla,Antigua ",
+Barbuda,Dominica,Grenada,The Grenadines and Saint Vincent,Montserrat,
  "XDR : IMF Special Drawing Rights,International Monetary Fund (IMF)
-Special Drawing Rights",
- "XOF : CFA Franc,Communaut&#233; Financi&#232;re Africaine (BCEAO)
-Franc,Benin,Burkina Faso,Ivory Coast,Guinea Bissau,Mali,Niger,Senegal,Togo",
- "XPF : CFP Franc,Comptoirs Fran&#231;ais du Pacifique (CFP)
-Franc,French Polynesia,New Caledonia,Wallis and Futuna Islands",
+Special Drawing Rights,
+ "XOF : CFA Franc,Communaut&#233; Financi&#232;re Africaine (BCEAO)",
+Franc,Benin,Burkina Faso,Ivory Coast,Guinea Bissau,Mali,Niger,Senegal,Togo,
+ "XPF : CFP Franc,Comptoirs Fran&#231;ais du Pacifique (CFP)",
+Franc,French Polynesia,New Caledonia,Wallis and Futuna Islands,
  "YER : Yemeni Rial,Yemen Rial",
  "ZAR : South African Rand,South Africa Rand,Lesotho,Namibia",
  "ZMK : Zambian Kwacha,Zambia Kwacha",
