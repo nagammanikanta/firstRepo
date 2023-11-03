@@ -5,3 +5,5 @@ print(gcs_bucket_list)
 gcs_bucket_list.remove("mani_demo_bucket")
 
 print(gcs_bucket_list)
+
+print(len(gcs_bucket_list))
