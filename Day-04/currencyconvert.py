@@ -23,8 +23,7 @@ Antarctic Territory,Coral Sea Islands,Heard Island,McDonald
 Islands,Kiribati,Nauru,
  "AWG : Aruban or Dutch Guilder,Aruba Guilder",
  "AZN : Azerbaijan Manat,Azerbaijan Manat",
- "BAM : Bosnian Convertible Mark,Bosnia and Herzegovina Convertible
-Mark",
+ "BAM : Bosnian Convertible Mark,Bosnia and Herzegovina ConvertibleMark",
  "BBD : Barbadian or Bajan Dollar,Barbados Dollar",
  "BDT : Bangladeshi Taka,Bangladesh Taka",
  "BGN : Bulgarian Lev,Bulgaria Lev",
