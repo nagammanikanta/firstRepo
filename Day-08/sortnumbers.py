@@ -3,5 +3,4 @@ num2 = [1, -2, -8, 0]
 
 numbers.sort()
 num2.sort()
-print(numbers)
-print(num2)
+print(numbers,num2)
