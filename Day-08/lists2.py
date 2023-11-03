@@ -9,3 +9,5 @@ print(gcs_bucket_list)
 print(len(gcs_bucket_list))
 
 print(gcs_bucket_list[0])
+
+print(gcs_bucket_list[0:2])
