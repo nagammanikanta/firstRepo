@@ -1,3 +1,3 @@
-students_names = ["mani", "abhi", "john", "pavan"]
+gcs_bucket_list = ["mani_demo_bucket", "abhi_demo_bucket", "john_demo_bucket", "pavan_demo_bucket"]
 
-print(students_names)
+print(gcs_bucket_list)
