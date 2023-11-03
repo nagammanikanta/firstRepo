@@ -65,7 +65,7 @@ d&#039;Italia,B&#252;singen am Hochrhein",
 Guiana,French Southern Territories,Germany,Greece,Guadeloupe,Holland
 (Netherlands),Holy See (Vatican City),Ireland
 (Eire),Italy,Luxembourg,Madeira
-Islands,Malta,Monaco,Montenegro,Netherlands",
+Islands,Malta,Monaco,Montenegro,Netherlands,
  "FJD : Fijian Dollar,Fiji Dollar",
  "FKP : Falkland Island Pound,Falkland Islands (Malvinas) Pound",
  "GBP : British Pound,United Kingdom Pound,United Kingdom
