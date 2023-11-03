@@ -20,7 +20,7 @@ currencies =[
  "AUD : Australian Dollar,Australia Dollar,Christmas Island,Cocos",
 (Keeling) Islands,Norfolk Island,Ashmore and Cartier Islands,Australian
 Antarctic Territory,Coral Sea Islands,Heard Island,McDonald
-Islands,Kiribati,Nauru",
+Islands,Kiribati,Nauru,
  "AWG : Aruban or Dutch Guilder,Aruba Guilder",
  "AZN : Azerbaijan Manat,Azerbaijan Manat",
  "BAM : Bosnian Convertible Mark,Bosnia and Herzegovina Convertible
