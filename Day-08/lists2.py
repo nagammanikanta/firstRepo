@@ -13,3 +13,6 @@ print(gcs_bucket_list[0])
 new_list = gcs_bucket_list[0:2]
 print(new_list)
 print(len(new_list))
+
+
+print(gcs_bucket_list[0] + gcs_bucket_list[3])
