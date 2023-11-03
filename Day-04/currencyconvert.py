@@ -3,11 +3,11 @@ import json
 import sys
 from pprint import pprint
 # The below 4 lines bring out the value of currency from the api at fixer.io. I had to register there, the key is unique to me.
-url = "http://data.fixer.io/api/latest?"
-access_key= "33ec7c73f8a4eb6b9b5b5f95118b2275"
+url ="http://data.fixer.io/api/latest?"
+access_key="33ec7c73f8a4eb6b9b5b5f95118b2275"
 data = requests.get(url).text
-data2 = json.loads(data) #brings whether request was successful,timestampetc
-fx = data2["rates"]
+data1 = json.loads(data) #brings whether request was successful,timestampetc
+fx = data1["rates"]
 currencies =[
 "AED : Emirati Dirham,United Arab Emirates Dirham",
  "AFN : Afghan Afghani,Afghanistan Afghani",
