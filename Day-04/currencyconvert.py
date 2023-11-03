@@ -60,7 +60,7 @@ d&#039;Italia,B&#252;singen am Hochrhein",
  "EGP : Egyptian Pound,Egypt Pound,Gaza Strip",
  "ERN : Eritrean Nakfa,Eritrea Nakfa",
  "ETB : Ethiopian Birr,Ethiopia Birr,Eritrea",
- "EUR : Euro,Euro Member Countries,Andorra,Austria,Azores,Baleares
+ "EUR : Euro,Euro Member Countries,Andorra,Austria,Azores,Baleares",
 (Balearic Islands),Belgium,Canary Islands,Cyprus,Finland,France,French
 Guiana,French Southern Territories,Germany,Greece,Guadeloupe,Holland
 (Netherlands),Holy See (Vatican City),Ireland
