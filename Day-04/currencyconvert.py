@@ -68,10 +68,10 @@ Guiana,French Southern Territories,Germany,Greece,Guadeloupe,Holland
 Islands,Malta,Monaco,Montenegro,Netherlands,
  "FJD : Fijian Dollar,Fiji Dollar",
  "FKP : Falkland Island Pound,Falkland Islands (Malvinas) Pound",
- "GBP : British Pound,United Kingdom Pound,United Kingdom
+ "GBP : British Pound,United Kingdom Pound,United Kingdom",
 (UK),England,Northern Ireland,Scotland,Wales,Falkland
 Islands,Gibraltar,Guernsey,Isle of Man,Jersey,Saint Helena and
-Ascension,South Georgia and the South Sandwich Islands,Tristan da Cunha",
+Ascension,South Georgia and the South Sandwich Islands,Tristan da Cunha,
  "GEL : Georgian Lari,Georgia Lari",
  "GGP : Guernsey Pound,Guernsey Pound",
  "GHS : Ghanaian Cedi,Ghana Cedi",
