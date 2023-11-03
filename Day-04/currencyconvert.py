@@ -7,7 +7,7 @@ url ="http://data.fixer.io/api/latest?"
 access_key="33ec7c73f8a4eb6b9b5b5f95118b2275"
 data = requests.get(url).text
 data1 = json.loads(data) #brings whether request was successful,timestampetc
-fx = data1["rates"]
+fx = data1["rate"]
 currencies =[
 "AED : Emirati Dirham,United Arab Emirates Dirham",
  "AFN : Afghan Afghani,Afghanistan Afghani",
