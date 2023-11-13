@@ -1,4 +1,5 @@
 
 for i in range(10):
    print(i)
-   print("=manikanta")
+   print("=Manikanta")
+   print("Nagam")
