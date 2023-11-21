@@ -6,7 +6,7 @@ students_info = {
 
 
 
-if 'age' in students_info:
-    print('Age is present in the dictionary is 29')
+for key, value in students_info.items:
+    print(key, value)
 
 
