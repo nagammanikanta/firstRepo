@@ -7,6 +7,6 @@ students_info = {
 
 
 if 'age' in students_info:
-    print('Age is present in the dictionary')
+    print('Age is present in the dictionary is 29')
 
 
