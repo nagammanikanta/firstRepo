@@ -5,3 +5,8 @@ server_config = {
     
 }
 print(server_config)
+
+def get_server_status(server_name):
+    return server_config.get(server_name, {}).get('status', 'server not found')
+
+print(server_config)
