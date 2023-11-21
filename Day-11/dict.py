@@ -5,3 +5,7 @@ students_info = {
    }
 
 print(students_info['name'])
+
+print(students_info['age'])
+
+print(students_info['role'])
