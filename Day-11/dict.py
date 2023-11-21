@@ -6,4 +6,4 @@ students_info = {
 
 del(students_info['age'])
 
-print(students_info)
+print(students_info['age'])
