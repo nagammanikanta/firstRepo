@@ -6,7 +6,7 @@ students_info = {
 
 
 
-for key, value in students_info.items:
+for key, value in students_info.items():
     print(key, value)
 
 
