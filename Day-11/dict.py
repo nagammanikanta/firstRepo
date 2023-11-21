@@ -5,4 +5,4 @@ students_info = [
     "role" :"devops"
    }
 ]
-print(students_info)
+print(students_info["name"])
