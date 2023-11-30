@@ -18,3 +18,4 @@ print(message.count('hello'))
 print(message.find('yes'))
 
 message = message.replace('world', 'Universe')
+print(message)
