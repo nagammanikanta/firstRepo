@@ -2,4 +2,4 @@ message = "hello world"
 
 print(message)
 
-print(message[5])
+print(message[1])
