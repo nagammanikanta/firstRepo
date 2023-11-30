@@ -32,6 +32,7 @@ data = '{}, {}. welcome!'.format(greeting, name)
 
 print(data)
 
-data = f'{greeting}, {name}. welcome!'
+
+data = f'{greeting.upper()}, {name.upper()}. welcome!'
 
 print(data)
