@@ -19,3 +19,11 @@ print(message.find('yes'))
 
 message = message.replace('world', 'Universe')
 print(message)
+
+greeting = 'hello'
+
+name = 'manikanta'
+
+data = greeting +''+ name
+
+print(data)
