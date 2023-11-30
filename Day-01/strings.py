@@ -36,3 +36,7 @@ print(data)
 data = f'{greeting.upper()}, {name.upper()}. welcome!'
 
 print(data)
+
+data = f'{greeting}, {name}. welcome!'
+
+print(data)
