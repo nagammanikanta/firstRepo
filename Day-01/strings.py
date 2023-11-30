@@ -24,6 +24,6 @@ greeting = 'hello'
 
 name = 'manikanta'
 
-data = greeting +', '+ name +'.welcome!'
+data = greeting +', '+ name + '.welcome!'
 
 print(data)
