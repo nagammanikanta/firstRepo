@@ -12,3 +12,7 @@ print(message[:4])
 print(message.upper())
 
 print(message.lower())
+
+print(message.count('hello'))
+
+print(message.find('yes'))
