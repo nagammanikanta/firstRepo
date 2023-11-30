@@ -27,3 +27,7 @@ name = 'manikanta'
 data = greeting +', '+ name + '. welcome!'
 
 print(data)
+
+data = '{}, {}. welcome!'.format(greeting, name)
+
+print(data)
