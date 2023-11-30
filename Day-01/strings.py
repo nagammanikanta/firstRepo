@@ -32,6 +32,6 @@ data = '{}, {}. welcome!'.format(greeting, name)
 
 print(data)
 
-data = f'{'greetings'}, {'name'}. welcome!'
+data = f'{greeting}, {name}. welcome!'
 
 print(data)
