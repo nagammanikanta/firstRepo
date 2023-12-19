@@ -3,7 +3,7 @@ import csv
 
 url = "https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/batsmen"
 
-querystring = {"formatType":"test"}
+querystring = {"formatType":"odi"}
 
 headers = {
 	"X-RapidAPI-Key": "7dd05ca27bmsh9118c5565e3d6d6p1a52c7jsn470e396b1d41",
