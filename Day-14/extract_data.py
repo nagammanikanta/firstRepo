@@ -32,5 +32,5 @@ if response.status_code == 200:
             else:
                 print("No data avaiable frm the API.")
    
-else:
+    else:
         print("failed to fetch data:", response.status_code)
