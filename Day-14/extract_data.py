@@ -22,9 +22,10 @@ if response.status_code == 200:
         field_names = ['rank', 'name', 'country']
         with open(csv_filename, 'w',newline='', encoding='utf-8') as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames=field_names)
+            
             for entry in data:
                 writer.writerow({field: entry.get(field) for field in field_names})
-                print(f"Data fetched successfully and written to {csv_filename}")
+                print(f"Data fetched successfully and written to '{csv_filename}'")
             else:
                 print("No data avaiable frm the API.")
 else:
