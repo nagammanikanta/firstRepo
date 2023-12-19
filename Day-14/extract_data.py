@@ -1,5 +1,3 @@
-from hmac import new
-from sqlite3 import paramstyle
 import requests
 import csv
 
@@ -22,6 +20,7 @@ response = requests.get(url, headers=headers, params=querystring)
 if response.status_code == 200:
     data = response.json().get('rank', []) #
     csv_filename = 'batsmen_rankings.csv'
+    
     if data:
         field_names = ['rank', 'name', 'country']
         with open(csv_filename, 'w',newline='', encoding='utf-8') as csvfile:
