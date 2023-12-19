@@ -28,7 +28,7 @@ if response.status_code == 200:
             writer = csv.DictWriter(csvfile, fieldnames=field_names)
             for entry in data:
                 writer.writerow({field: entry.get(field) for field in field_names})
-                print(f'Data fetched successfully and written to {csv_filename}')
+                print(f"Data fetched successfully and written to {csv_filename}")
             else:
                 print("No data avaiable frm the API.")
 else:
