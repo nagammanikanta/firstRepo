@@ -25,8 +25,8 @@ if response.status_code == 200:
             
             for entry in data:
                 writer.writerow({field: entry.get(field) for field in field_names})
-                print(f"Data fetched successfully and written to '{csv_filename}'")
-            else:
-                print("No data avaiable frm the API.")
+        print(f"Data fetched successfully and written to '{csv_filename}'")
+    else:
+        print("No data avaiable frm the API.")
 else:
-        print("failed to fetch data:", response.status_code)
+    print("failed to fetch data:", response.status_code)
