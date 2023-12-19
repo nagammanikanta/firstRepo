@@ -20,7 +20,7 @@ response = requests.get(url, headers=headers, params=querystring)
 
 
 if response.status_code == 200:
-    data = response.json().get('rank', [])
+    data = response.json().get('rank', []) #
     csv_filename = 'batsmen_rankings.csv'
     if data:
         field_names = ['rank', 'name', 'country']
@@ -31,6 +31,5 @@ if response.status_code == 200:
                 print(f'Data fetched successfully and written to {csv_filename}')
             else:
                 print("No data avaiable frm the API.")
-   
-    else:
+else:
         print("failed to fetch data:", response.status_code)
